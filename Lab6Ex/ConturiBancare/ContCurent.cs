@@ -9,7 +9,7 @@ namespace Lab6Ex.ConturiBancare
 {
     public class ContCurent : ContBancar
     {
-        const int limitaDescoperireCont = 5000;
+        protected const int limitaDescoperireCont = 5000;
 
         public ContCurent(string numeCont) : base(numeCont, TipCont.Curent) { }
 

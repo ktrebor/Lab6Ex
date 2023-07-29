@@ -10,7 +10,7 @@ namespace Lab6Ex.ConturiBancare
 {
     public class ContEconomie : ContBancar
     {
-        const decimal rataDobanda = 0.02m;
+        protected const decimal rataDobanda = 0.02m;
 
         public ContEconomie(string numeCont) : base(numeCont, TipCont.Economie) { }
 

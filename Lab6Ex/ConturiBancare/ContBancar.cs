@@ -12,7 +12,7 @@ namespace Lab6Ex.ConturiBancare
         protected string numeCont { get; }
         protected decimal sold { get; set; }
         protected Guid idCont { get; }
-        private TipCont tipCont;
+        protected TipCont tipCont;
         
         private static int totalConturi = 0;
 
