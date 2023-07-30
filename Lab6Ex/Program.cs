@@ -14,7 +14,6 @@ namespace Lab6Ex
             contulDeEconomii.Extrage(500);
             Console.WriteLine(contulDeEconomii);
 
-            
             var contulDeInvestitii = new ContInvestitie("cont invest");
             contulDeInvestitii.Depune(5000);
 
